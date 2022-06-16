@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@200;400;800&display=swap');
+
+    *{
+        font-family: Poppins, Arial, Helvetica, sans-serif;
+        
+    }
+    body{
+        
+        height: 100vh;
+        width: auto;
+        background-color: aqua;
+        background: rgb(2,0,36);
+        background: linear-gradient(169deg, rgba(2,0,36,1) 0%, rgba(114,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    .contenedor{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;  
+        padding: 1rem;
+        
+        
+        
+        
+        
+    }
+    
+        
+    .formulario{
+        padding: 1rem;;
+        display: flex;
+        align-items: center;
+        flex-direction: column;       
+    } 
+
+    .formulario #link, .generador {
+        margin: 1rem;
+        text-align: center;
+    }
+    .formulario #link{
+        min-width: 400px;
+        height: 40px;
+        font-size: 20px;
+        border-radius: 10px;
+        border-color: black;
+    }
+    .generador{
+        background-color: black;
+        color: white;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        font-size: 20px;
+    }
+
+    .generador:hover{
+        background-color: gray;
+    }
